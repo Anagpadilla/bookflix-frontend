@@ -1,0 +1,20 @@
+
+# Ignorar la carpeta node_modules
+node_modules/
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos de configuración de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar el directorio de compilación
+/build/
+
+# Ignorar archivos temporales
+*.tmp
+*.temp
+
+# Ignorar otros tipos de archivos específicos
+*.env

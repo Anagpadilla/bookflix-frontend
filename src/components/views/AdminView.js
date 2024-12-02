@@ -75,33 +75,31 @@ function AdminDashboard() {
   //A continuación las funciones handle que manejan la eliminacón de libros y usuarios de la base de datos.
   const handleDeleteUser = async (userId) => {
     try {
+      await deleteUser(userId);
       setUsers((prevUsers) =>
         prevUsers.filter((user) => user.usuario_id !== userId)
       );
       setFilteredUsers((prevFilteredUsers) =>
         prevFilteredUsers.filter((user) => user.usuario_id !== userId)
       );
-      console.log('Usuario eliminado con éxito');
       setMessage('Usuario eliminado con éxito');
       setShowToast(true);
-      await deleteUser(userId);
     } catch (error) {
       console.error('Error al eliminar el usuario:', error);
     }
   };
   const handleDeleteBook = async (bookId) => {
     try {
+      await deleteBook(bookId);
       setBooks((prevBooks) =>
         prevBooks.filter((book) => book.libro_id !== bookId)
       );
       setFilteredBooks((prevFilteredBooks) =>
         prevFilteredBooks.filter((book) => book.libro_id !== bookId)
       );
-      console.log('Libro eliminado con éxito');
       setMessage('Libro eliminado con éxito');
       setShowToast(true);
       setTimeout(() => setShowToast(false), 3000);
-      await deleteBook(bookId);
     } catch (error) {
       console.error('Error al eliminar el libro:', error);
     }

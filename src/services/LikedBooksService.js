@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/likedBooks';
+const API_URL = 'http://localhost:5005/likedBooks';
 
 //Funcón que obtiene los libros que le gustan al usuario y hace una llamada a la ruta de likedBooks/getLikedBooks
 export const getLikedBooks = (token) => {

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/admin';
+const API_URL = `http://localhost:5005/admin`;
 
 //Estos son los sevicios que van a hacer peticiones relacionadas con las acciones de administrador
 

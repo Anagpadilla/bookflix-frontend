@@ -1,6 +1,7 @@
 import axios from 'axios';
+
 // Ruta de la API
-const API_URL = 'http://localhost:5000/reviews';
+const API_URL = 'http://localhost:5005/reviews';
 
 // Obtener reseñas de un libro
 export const getBookReviews = (bookId) => {

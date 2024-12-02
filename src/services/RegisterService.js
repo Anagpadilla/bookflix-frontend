@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/users';
+const API_URL = 'http://localhost:5005/users';
 
 //Función que va a comunicar con la ruta users/register para registrar un usuario.
 export const register = async (data) => {
