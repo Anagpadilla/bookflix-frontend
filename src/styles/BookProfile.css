@@ -1,0 +1,132 @@
+/* Estilos generales para la página del perfil del libro */
+.book-profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    min-height: 100vh;
+  }
+  
+  /* Contenedor principal del perfil del libro */
+  .book-profile {
+	background-color: #f6f6f6d6;
+	border-radius: 4px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	width: 100%;
+	max-width: 90%;
+	overflow: hidden;
+  }
+  
+  /* Títulos principales */
+  .book-profile h2 {
+	font-size: 2rem;
+	font-weight: 700;
+	color: #333;
+	margin-bottom: 20px;
+  }
+  
+  /* Estilo de la información general del libro */
+  .book-profile p {
+	font-size: 1rem;
+	color: #555;
+	line-height: 1.6;
+	margin: 8px 0;
+  }
+  
+  .book-profile strong {
+	color: #333;
+  }
+  
+  /* Imagen de la portada del libro */
+  .book-cover img {
+	width: 100%;
+	max-width: 300px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	margin-top: 20px;
+	margin-bottom: 30px;
+  }
+  
+  /* Sección de reseñas */
+  .book-reviews {
+	margin-top: 40px;
+  }
+  
+  .book-reviews h3 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #444;
+	margin-bottom: 20px;
+  }
+  
+  .previus-reviews p {
+	font-size: 1rem;
+	color: #555;
+	margin-bottom: 10px;
+  }
+  
+  .previus-reviews div {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+  }
+  
+  /* Estilo para el área de nueva reseña */
+  .new-review {
+	margin-top: 20px;
+  }
+  
+  .new-review textarea {
+	width: 100%;
+	font-size: 1rem;
+	padding: 10px;
+	border: 1px solid #8f2d20;
+	border-radius: 6px;
+	resize: vertical;
+	min-height: 100px;
+	margin-bottom: 15px;
+  }
+  
+  .new-review button {
+	background: #8f2d20; 
+	color: white; 
+	border: 2px solid #8f2d20;
+	border-radius: 6px;
+	padding: 10px 20px;
+	cursor: pointer;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  .new-review button:hover {
+	background-color: #a05345;
+  }
+
+  .book-actions {
+	margin-top: 30px;
+	display: flex;
+	justify-content: flex-end;
+  }
+  
+  .book-actions .btn-secondary {
+	background: #ffffff; 
+	color: #8f2d20; 
+	border: 2px solid #8f2d20;
+	border-radius: 6px;
+	cursor: pointer;
+	padding: 10px 20px;
+	font-size: 1rem;
+	transition: background-color 0.3s ease;
+  }
+  
+  .book-actions .btn-secondary:hover {
+	background-color: #5a6268;
+  }
+  
+  .book-actions .btn-secondary:active {
+	background-color: #494e52;
+  }
+  

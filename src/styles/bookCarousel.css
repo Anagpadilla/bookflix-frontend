@@ -1,0 +1,33 @@
+
+.container-carousel {
+	display: flex;
+	align-items: center; /* Centrar verticalmente */
+	justify-content: center; /* Centrar horizontalmente */
+	margin: 20px 0; /* Espaciado vertical */
+	position: relative; /* Necesario para las flechas */
+	width: 100%; /* Hacer que el contenedor ocupe todo el ancho */
+  }
+  
+  .carousel {
+	display: flex;
+	align-items: center; /* Centrar verticalmente */
+	justify-content: center; /* Espacio entre botones y libros */
+	width: 100%; /* Usar el 100% del ancho del contenedor */
+	position: relative; /* Necesario para las flechas absolutas */
+  }
+  
+  .carousel-row {
+	display: flex;
+	flex-wrap: nowrap; /* No permitir que los libros se ajusten a múltiples líneas */
+	overflow-x: auto; /* Permitir desplazamiento horizontal */
+	width: 100%; /* Ajustar según sea necesario */
+	scroll-snap-type: x mandatory; /* Mejora el desplazamiento en dispositivos móviles */
+  }
+  
+  .carousel-book {
+	flex: 0 0 auto; /* Evitar que los elementos crezcan o se encojan */
+	margin: 0 10px; /* Espacio entre libros */
+	scroll-snap-align: start; /* Alinear elementos al inicio */
+	position: relative; /* Posicionar elementos internos */
+  }
+  

@@ -1,0 +1,17 @@
+export const RenameGenres = {
+  ficción: 'Ficción',
+  finanzas: 'Finanzas',
+  biografía: 'Biografía',
+  clásicos: 'Clásicos',
+  romance: 'Romance',
+  poesía: 'Poesía',
+  filosofía: 'Filosofía',
+  historia: 'Historia',
+  fantasía: 'Fantasía',
+  jóvenes: 'Juvenil',
+  infantil: 'Infantil',
+  ciancia_ficción: 'Ciencia Ficción',
+  arte: 'Arte',
+  psicología: 'Psicología',
+  misterio: 'Misterio',
+};

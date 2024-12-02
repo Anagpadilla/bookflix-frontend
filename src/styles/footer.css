@@ -1,0 +1,13 @@
+.footer-container {
+	background-color:#4744443d;
+	color: #333;
+	padding: 10px 0;
+	font-size: 14px;
+	border-top: 1px solid #4744443d;
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+    justify-content: center;
+  }
+  
+  

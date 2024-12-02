@@ -1,0 +1,89 @@
+
+.admin-container {
+	padding: 20px;
+    background-color: #4744443d;
+}
+.admin-title {
+	display: flex;
+    justify-content: center;
+	margin-top: 30px;
+}
+
+.admin-header {
+	display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+	align-items: center;
+	margin-top: 40px;
+}
+.admin-headerTitle {
+	color: #570a0a;
+}
+.admin-searcher  {
+	background-color: white;
+    width: 40%;
+    height: 2.5em;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+	margin-left: 10px;
+}
+.admin-searcher input {
+	border: none;
+	outline: none;
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	padding-left: 10px;
+}
+.admin-searchIcon {
+	color: #570a0a;
+	font-size: 1.5em;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.admin-newBook {
+	background-color: #8f2d20;
+	color: white;
+	border: 2px solid black;
+	border-radius: 20px;
+	padding: 5px 10px;
+	cursor: pointer;
+	font-size: 1em;
+	transition: 0.3s;
+	margin-left: 5px;
+	width: 18%;
+	height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	float: right;
+	margin-bottom: 20px;
+}
+.admin-newBook button {
+	width: 100%;
+}
+.admin-newBook :hover {
+	background-color: #570a0a;
+}
+.admin-container button {
+	background-color: #8f2d20;
+	color: white;
+	border: none;
+	border-radius: 20px;
+	padding: 5px 10px;
+	cursor: pointer;
+	font-size: 0.8em;
+	transition: 0.3s;
+	margin-left: 5px;
+}
+.admin-container button:hover {
+	background-color: #570a0a;
+}
+
+
+

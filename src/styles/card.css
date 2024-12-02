@@ -1,0 +1,86 @@
+.books-carousel {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+  }
+
+.book-card {
+	background-size: cover; 
+	background-position: center; 
+	width: 200px; 
+	height: 250px; 
+	position: relative; 
+	overflow: hidden;
+	border-radius: 8px;
+	color: white;
+	padding: 10px;
+  } 
+  
+   .card-overlay {
+	position: absolute;
+	bottom: 0; 
+	left: 0; 
+	right: 0; 
+	background: rgba(0, 0, 0, 0.6); 
+	padding: 10px; 
+	opacity: 0; 
+	transition: opacity 0.3s; 
+	color: white;
+	height: 100%; 
+  } 
+  
+  /* Mostrar información al hacer hover */
+   .carousel-book:hover .card-overlay {
+	opacity: 1; 
+  } 
+
+  .actions img {
+	width: 50px; /* Ajustar tamaño de los íconos */
+	height: 50px; /* Ajustar tamaño de los íconos */
+	margin: 0 5px; /* Espacio entre íconos */
+  }
+
+  .actions {
+	position: absolute;
+	top: 80%;
+	right: 10px;
+  }
+  
+  .btn-danger {
+	background-color: red;
+	border: none;
+	color: white;
+	cursor: pointer;
+	padding: 5px;
+	border-radius: 5px;
+  }
+  
+  
+
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+	.book-card {
+	  width: 150px; /* Cambiar tamaño en pantallas medianas */
+	  height: 220px; /* Cambiar tamaño en pantallas medianas */
+	}
+  
+	.actions img {
+	  width: 25px; /* Cambiar tamaño de íconos en pantallas medianas */
+	  height: 25px; /* Cambiar tamaño de íconos en pantallas medianas */
+	}
+  }
+  
+  @media (max-width: 480px) {
+	.book-card {
+	  width: 120px; /* Cambiar tamaño en pantallas pequeñas */
+	  height: 180px; /* Cambiar tamaño en pantallas pequeñas */
+	}
+  
+	.actions img {
+	  width: 20px; /* Cambiar tamaño de íconos en pantallas pequeñas */
+	  height: 20px; /* Cambiar tamaño de íconos en pantallas pequeñas */
+	}
+  }
+  
+  
